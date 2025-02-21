@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="register-body">
+    <div class="container">
+      <div class="row h-100 mt-5">
+        <div class="col-md-5 mx-auto">
+          <div class="">
+            <div class="box form bg text-white rounded-2xl p-3">
+              <h3 class="text-center">Register</h3>
+              <div class="col-12">
+                <div class="form-group mt-3">
+                  <label for="name" class="form-label">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Jon Doe"
+                  />
+                </div>
+
+                <div class="form-group mt-3">
+                  <label for="email" class="form-label">Email</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="john@gmail"
+                  />
+                </div>
+                <div class="form-group mt-3">
+                  <label for="number" class="form-label">Age</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    placeholder="18"
+                    min="12"
+                  />
+                </div>
+
+                <div
+                  class="col-md-8 form-group mt-3 d-flex justify-content-between align-items-center"
+                >
+                  <label for="" class=" ">Gender</label>
+                  <div class="mb-1">
+                    <div class="form-check-inline mt-2">
+                      <input
+                        style="background-color: gray"
+                        type="radio"
+                        class="form-check-input"
+                        name="Gender"
+                        id="male"
+                      />
+                      <label for="male" class="form-check-label">male</label>
+                    </div>
+                    <div class="form-check-inline">
+                      <input
+                        style="background-color: gray"
+                        type="radio"
+                        name="Gender"
+                        class="form-check-input"
+                        id="female"
+                      />
+                      <label for="female" class="form-check-label"
+                        >female
+                      </label>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group mt-3">
+                  <label for="name" class="form-label">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="******"
+                  />
+                </div>
+                <div class="form-group d-flex justify-content-between mt-4">
+                  <a href="" class="link-light text-decoration-none">
+                    Already User ? <span class="mx-4">Login here</span>
+                  </a>
+                  <button class="btn btn-outline-light">Register</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

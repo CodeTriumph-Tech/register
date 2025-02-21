@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1691865179028-1729b766a5cd?q=80&w=2002&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+      0 40%;
+  background-size: cover;
+  backdrop-filter: blur(5px);
+}
+.box {
+  border: 1.5px solid gray;
+  border-radius: 5px;
+  background: rgba(39, 39, 39, 0.5);
+}
+.box input {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.box input:focus {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
